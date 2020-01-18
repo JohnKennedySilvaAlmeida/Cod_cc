@@ -13,6 +13,27 @@ Deve ter como informação:
 O usuário deve ser único no sistema.
 Deve ser criado um programa em C para fazer o cadastro, a edição e listagem dos dados na tabela. Este programa deverá ser chamado no PHP para executar as funcionalidades do sistema.
 
+----------------cods----------------------- base---
+#include <stdio.h>
+
+int main(){
+    
+    int senha;
+    
+    printf("Entre com a senha : ");
+    scanf("%d",&senha);
+    
+    if(senha==123) {
+        printf("Bem vindo admin \n\n");
+    }else {
+        printf("Senha enconrreta! \n\n");
+        return main();
+    }
+    return (0);
+} 
+----------------- codigos ---  base -----------------------------------------------------------
+https://forum.imasters.com.br/topic/468071-cadastro-e-login-em-c/
+
 
 ----------------------------------------------------------------------------------
 
